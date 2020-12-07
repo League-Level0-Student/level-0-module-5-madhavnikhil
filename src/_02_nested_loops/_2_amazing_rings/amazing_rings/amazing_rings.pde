@@ -3,7 +3,7 @@
 
 void setup() {
   /* Set the size of your sketch to be a rectangle like in the recipe demonstration */
-  
+  size(3000, 3000);
   /* Call the noFill() command so all the ellipses will be transparent */
 }
 
@@ -11,6 +11,7 @@ void draw() {
 
         /* Use a for loop to make the first set of rings that will start in the left half of the window
         (you can use the code from your Bullseye program).*/          
+for (int i = 0; i < 6; i++) {
 
         
         /*Make this set of rings move across the sketch to the right 
